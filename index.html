@@ -12,13 +12,17 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/header.css">
-    
+    <link rel="stylesheet" href="src/css/content.css">
+    <link rel="stylesheet" href="src/css/sections.css">
+    <link rel="stylesheet" href="src/css/cult.css">
+    <link rel="stylesheet" href="src/css/bottom.css">
+
     <title>Document</title>
   </head>
   <body>
     <header>
-      <img src="./src/img/logo.png" alt="Logo Ebenzer" id="logo">
-        <ul>
+      <img src="./src/img/logo.png" alt="Logo Ebenzer" id="logo" class="logo">
+        <ul class="menu">
           <li>Quem Somos</li>
           <li>Filantropia</li>
           <li>Eventos</li>
@@ -28,83 +32,100 @@
         </ul>
     </header>
     <section class="content">
-      <p class="text">
-        Então Samuel pegou uma pedra e a ergueu entre Mispá e Sem; e deu-lhe o nome de Ebenézer, dizendo: "Até aqui o Senhor nos ajudou
-      </p>
-      <div class="bottom-content">
-        <label for="1 Samuel 7:12">1 Samuel 7:12</label>
+      <div class="bg-content">
+        <p class="text">
+          Então Samuel pegou uma pedra e a ergueu entre Mispá e Sem e deu-lhe o nome de Ebenézer, dizendo: "Até aqui o Senhor nos ajudou.
+        </p>
+        <div class="bottom-content">
+          <label for="1 Samuel 7:12">1 Samuel 7:12</label>
+        </div>
       </div>
     </section>
     <!-- Quem somos -->
-    <article class="QuemSomos">
-      <h3 class="title-article">Quem Somos</h3>
-      <p>
-        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
-      </p>
-    </article>
+    <article id="QuemSomos" class="sections">
+
+      <div class="article-card">
+        <h3 class="title-article">Quem Somos</h3>
+        <p class="text-article">
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+        </p>
+      </div>
+
+      <div class="article-image">
+        <img src="/src/img/quem_somos.png" alt="Imagem da igreja" srcset="">
+      </div>
+      </article>
 
     <!-- Filantropia -->
-    <article class="Filantropia">
-      <h3 class="title-article">Filantropia</h3>
-      <p>
-        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
-      </p>
+    <article id="Filantropia" class="sections">
+
+      <div class="article-image">
+        <img src="/src/img/quem_somos.png" alt="" srcset="">
+      </div>
+      
+      <div class="article-card">
+          <h3 class="title-article">Filantropia</h3>
+          <p class="text-article">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+          </p>
+      </div>
     </article>
+
     <!-- CULTOS -->
-    <Section>
-      <h2 class="title-events">Cultos</h2>
-      <ul>
-        <li>
+    
+    <section class="cult">
+      <h2 class="title-cult">Cultos</h2>
+      <div class="list-cult">
+        <div class="card-cult">
+          <img src="/src/svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
-            <img src="" alt="">
               <h4 class="title-card">Terça-Feira - Culto de Ensino - 19:30 hs</h4>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-                <span>Learn more</span>
+                <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+                <span class="LearnMore">Learn more</span>
             </img>
           </div>
-        </li>
-        <li>
+        </div>
+        <div class="card-cult">
+          <img src="/src/svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
-            <img src="" alt="">
               <h4 class="title-card">Terça-Feira - Culto de Ensino - 19:30 hs</h4>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-                <span>Learn more</span>
+                <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+                <span class="LearnMore">Learn more</span>
             </img>
           </div>
-        </li>
-        <li>
+        </div>
+        <div class="card-cult">
+          <img src="/src/svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
-            <img src="" alt="">
               <h4 class="title-card">Terça-Feira - Culto de Ensino - 19:30 hs</h4>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-                <span>Learn more</span>
+                <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+                <span class="LearnMore">Learn more</span>
             </img>
           </div>
-        </li>
-        <li>
+        </div>
+        <div class="card-cult">
+          <img src="/src/svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
-            <img src="" alt="">
               <h4 class="title-card">Terça-Feira - Culto de Ensino - 19:30 hs</h4>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-                <span>Learn more</span>
+                <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+                <span class="LearnMore">Learn more</span>
             </img>
           </div>
-        </li>
-        <li>
+        </div>
+        <div class="card-cult">
+          <img src="/src/svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
-            <img src="" alt="">
               <h4 class="title-card">Terça-Feira - Culto de Ensino - 19:30 hs</h4>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-                <span>Learn more</span>
+                <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+                <span class="LearnMore">Learn more</span>
             </img>
           </div>
-        </li>
-        
-      </ul>
-    </Section>
+        </div>
+      </div>
+    </section>
 
     <div class="bottom">
-      <img src="./src/img/logo.png" alt="Logo Ebenzer" id="logo">
+      <img src="./src/img/logo.png" alt="Logo Ebenzer" id="logo" class="bottom-image">
 
       <div class="row-css"></div>
       

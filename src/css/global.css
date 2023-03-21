@@ -1,3 +1,16 @@
 * {
     font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+:root {
+    --color-text: #2B2F33;
+    --bg-primary: #FFCA99;
+    --bg-gray: #F5F5F5;
+    --blue-light: #18A0FB;
 }
