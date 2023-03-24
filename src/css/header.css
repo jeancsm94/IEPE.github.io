@@ -5,6 +5,9 @@ header {
     background-color: var(--bg-primary);
     align-items: center;
 }
+#logo-text {
+    font-family: 'Righteous', cursive;
+}
 
 .menu {
     display: flex;
@@ -21,7 +24,43 @@ header {
 }
 
 .logo {
-    margin-left: 80px;
     width: 265px;
     height: 50px;
+}
+
+@media (max-width: 320px) {
+    header{
+        width: 100%;
+        display: flex;
+    }
+    header .logo {
+        justify-items: center;
+    }
+
+    header #logo-text {
+        font-size: 3.6rem;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+
+    }
+
+    header #logo-image-header {
+        display: none;
+    }
+
+    header #hamburger {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        margin-left: 30px;
+    }
+
+    .menu {
+        display: none;
+    }
 }

@@ -32,3 +32,13 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 320px) {
+    #logo, .socialMedia {
+        display: none;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+}
