@@ -1,40 +1,4 @@
-.sections {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 100px;
-}
-#QuemSomos {
-    margin-top: 80px;
-    margin-bottom: 60px;
-}
-
-.sections .article-image img {
-    width: 750px;
-    height: 440px;
-    border-radius: 6px;
-}
-
-.title-article {
-    font-size: 3.6rem;
-    font-weight: 700;
-    line-height: 3.6rem;
-    color: var(--color-text);
-}
-
-.text-article {
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 3.0rem;
-}
-
-.article-card {
-    width: 686px;
-}
-
-@media (max-width: 320px) {
+@media (max-width: 390px) {
     .sections {
         width: 100%;
     }
@@ -53,8 +17,8 @@
     }
 
     .sections .article-image img {
-        width: 250px;
-        height: 192px;
+        width: 90%;
+        height: 10%;
     }
 
     .sections .article-card .title-article {
