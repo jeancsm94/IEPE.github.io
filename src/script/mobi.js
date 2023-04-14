@@ -1,3 +1,4 @@
+let index = 1
 function handlerMenu(button) {
     let btnClose = document.getElementById("hamburger-close");
     let btnMenu = document.getElementById("hamburger-open"); 
@@ -19,4 +20,46 @@ function handlerMenu(button) {
         menu.innerHTML = menuAppend;
         menu.style.display = "flex";
     }
+}
+
+function nextCult() {
+  let resetList = false;
+  let cardHide ;
+    
+  if( index == 4){
+    resetList = true;
+    index = 1;
+  }
+  else
+    index++;
+
+  const cardShow = document.getElementById(`card-${index}`);    
+  if (!resetList) 
+    cardHide = document.getElementById(`card-${index - 1}`);
+  else
+    cardHide = document.getElementById(`card-1`);
+
+  cardHide.style.display = 'none';
+  cardShow.style.display = '';        
+}
+
+function backCult() {
+  let resetList = false;
+  let cardHide ;
+    
+  if( index == 1){
+    resetList = true;
+    index = 4;
+  }
+  else
+    index--;
+
+  const cardShow = document.getElementById(`card-${index}`);    
+  if (!resetList) 
+    cardHide = document.getElementById(`card-${index + 1}`);
+  else
+    cardHide = document.getElementById(`card-1`);
+    
+  cardHide.style.display = 'none';
+  cardShow.style.display = '';        
 }

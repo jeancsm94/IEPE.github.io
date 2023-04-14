@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./../../css/content/content-mobile.css">
     <link rel="stylesheet" href="./../../css/sections/sections.css">
     <link rel="stylesheet" href="./../../css/sections/sections-mobi.css">
-    <link rel="stylesheet" href="./../../css/cult.css">
+    <link rel="stylesheet" href="./../../css/cults/cult-mobile.css">
     <link rel="stylesheet" href="./../../css/bottom.css">
 
     <!-- Scripts -->
@@ -90,8 +90,12 @@
     
     <section class="cult">
       <h2 class="title-cult">Cultos</h2>
+      <div class="slider-show">
+      <div class="arrow-left center">
+        <span class="material-symbols-outlined" onclick="backCult()"> arrow_back_ios</span>
+      </div>
       <div class="list-cult">
-        <div class="card-cult">
+        <div class="card-cult" id="card-1">
           <img src="./../../svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
               <h4 class="title-card">Terça-Feira - Culto de Ensino</h4>
@@ -101,40 +105,30 @@
             </img>
           </div>
         </div>
-        <div class="card-cult">
+        <div class="card-cult" id="card-2">
           <img src="./../../svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
-              <h4 class="title-card">Terça-Feira - Culto de Ensino</h4>
+              <h4 class="title-card">Quinta-Feira - Culto de Ensino</h4>
               <span class="text-mobi">19:30 hs</span>
                 <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                 <span class="LearnMore">Learn more</span>
             </img>
           </div>
         </div>
-        <div class="card-cult">
+        <div class="card-cult" id="card-3">
           <img src="./../../svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
-              <h4 class="title-card">Terça-Feira - Culto de Ensino</h4>
+              <h4 class="title-card">Sábado - Culto de Ensino</h4>
               <span class="text-mobi">19:30 hs</span>
                 <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                 <span class="LearnMore">Learn more</span>
             </img>
           </div>
         </div>
-        <div class="card-cult">
+        <div class="card-cult" id="card-4">
           <img src="./../../svgs/educacao 1.svg" alt="Educação" class="icon-cult">
           <div>
-              <h4 class="title-card">Terça-Feira - Culto de Ensino</h4>
-              <span class="text-mobi">19:30 hs</span>
-                <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-                <span class="LearnMore">Learn more</span>
-            </img>
-          </div>
-        </div>
-        <div class="card-cult">
-          <img src="./../../svgs/educacao 1.svg" alt="Educação" class="icon-cult">
-          <div>
-              <h4 class="title-card">Terça-Feira - Culto de Ensino</h4>
+              <h4 class="title-card">Domingo - Culto de Ensino</h4>
               <span class="text-mobi">19:30 hs</span>
                 <p class="card-text-cult">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                 <span class="LearnMore">Learn more</span>
@@ -142,6 +136,12 @@
           </div>
         </div>
       </div>
+      <div class="arrow-rigth center">
+        <span class="material-symbols-outlined" onclick="nextCult()">
+          arrow_forward_ios
+          </span>
+      </div>
+    </div>
     </section>
 
     <div class="bottom">

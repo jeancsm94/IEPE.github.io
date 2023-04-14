@@ -1,0 +1,72 @@
+
+@media (max-width: 390px) {
+
+    .cult {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .cult .slider-show {
+        height: 400px;
+        display:  flex;
+        flex-direction: row;
+    }
+    .cult .list-cult {
+        overflow: hidden;
+        display: grid;
+        grid-auto-flow: 1fr;
+        height: 400px;
+    }
+    .title-cult {
+        font-size: 2rem;
+        line-height: 2.8rem;
+        text-align: center;
+    }
+    
+    .icon-cult {
+        width: 20%;
+        height: 20%;
+    }
+
+    .title-card {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    .text-mobi {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #717171;
+
+    }
+    .card-text-cult {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    .LearnMore {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--blue-light);
+    }
+
+    .cult .list-cult .card-cult {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+    }
+
+    .arrow-left {
+        margin-left: 10px;
+    }
+    
+    .arrow-rigth{
+        margin-right: 10px;
+    }
+    
+}
