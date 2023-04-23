@@ -5,7 +5,7 @@
 }
 .cult .slider-show {
   width: 100vw;
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,12 +15,12 @@
   overflow: hidden;
   display: grid;
   grid-auto-flow: 1fr;
-  height: 450px;
+  height: 200px;
 }
 .title-cult {
   font-size: 2rem;
   line-height: 2.8rem;
-  text-align: center;
+  text-align: center;  
 }
 
 .icon-cult {
@@ -31,6 +31,7 @@
 .title-card {
   font-size: 2rem;
   line-height: 2rem;
+  margin-top: 0;
 }
 
 .text-mobi {
@@ -51,7 +52,7 @@
 
 .cult .list-cult .card-cult {
   width: 100%;
-  height: 100vh;
+  height: 200px;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 35px;
