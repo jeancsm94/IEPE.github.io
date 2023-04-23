@@ -16,9 +16,9 @@ if (!production) {
     }
 } else {
     if (isMobi) {
-        window.location.replace("IEPE.github.io/src/page/mobile/");
+        window.location.replace("/IEPE.github.io/src/page/mobile/");
     }else {
-        window.location.replace("IEPE.github.io/src/page/desktop/");
+        window.location.replace("/IEPE.github.io/src/page/desktop/");
     }
 }
 
