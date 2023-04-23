@@ -15,13 +15,14 @@ header {
 }
 
 header #hamburger {
+  position: relative;
+  display: flex;
   border: none;
   background: none;
   cursor: pointer;
-  /* position: absolute; */
-  margin-left: 300px;
+  margin-left: 30px;
   align-items: center;
-  /* right: calc(90% - 300px); */
+  left: 120px;
 }
 
 header #hamburger-close {

@@ -14,3 +14,9 @@
     --bg-gray: #F5F5F5;
     --blue-light: #18A0FB;
 }
+
+/* @media (max-width: 2560px) {
+    .title-card {
+        font-size: 4.8rem !important;        
+    }
+} */

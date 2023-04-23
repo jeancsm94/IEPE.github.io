@@ -1,5 +1,5 @@
-@media (max-width: 390px) {
-    .sections {
+.sections {
+  
         width: 100%;
     }
     
@@ -40,4 +40,3 @@
         align-items: center;
         text-align: center;
     }
-}
