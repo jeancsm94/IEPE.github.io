@@ -10,7 +10,6 @@
 }
 
 .list-cult {
-    margin-top: 40px;
     display: flex;
     flex-flow: wrap;
 }
@@ -24,7 +23,7 @@
     width: 493px;
     height: 320px;
     margin-right: 20px;
-    margin-bottom: 140px;
+    margin-bottom: 40px;
 }
 
 .title-card {
@@ -43,4 +42,26 @@
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--blue-light);
+}
+
+.text-mobi {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+@media (max-width: 768px) {
+    .cult {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-cult {
+        text-align: center;
+    }
+
+    .list-cult .card-cult{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
