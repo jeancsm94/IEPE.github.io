@@ -9,8 +9,8 @@ function checkDevice () {
 const isMobi = checkDevice();
 
 if (isMobi) {
-    window.location.replace("/src/page/mobile/index.html");
+    window.location.replace("/src/page/mobile/");
 }else {
-    window.location.replace("/src/page/desktop/index.html");
+    window.location.replace("/src/page/desktop/");
 }
 
