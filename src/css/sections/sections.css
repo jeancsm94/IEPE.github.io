@@ -15,7 +15,8 @@
 #QuemSomos {
     margin-top: 80px;
     margin-bottom: 60px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 50%;
 }
 
 #QuemSomos .article-card {
@@ -24,7 +25,8 @@
 #Filantropia {
     margin-top: 80px;
     margin-bottom: 60px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 50%;
 }
 
 #Filantropia img {
