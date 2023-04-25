@@ -9,10 +9,16 @@ function handlerMenu(button) {
         btnClose.style.display = "none"
         menu.style.display = "none";
     } else {
-        const listMenu= ["Quem Somos", "Filantropia", "Cultos", "Doações", "Live Culto", "Créditos"];
+        // const listMenu= ["Quem Somos", "Filantropia", "Cultos", "Doações", "Live Culto", "Créditos"];
+        const listMenu= ["Quem Somos", "Filantropia", "Cultos", ];
         let menuAppend = ""
         listMenu.forEach(element => {
-            menuAppend +=`<div class="sub-menu" onclick="handlerMenu(this)">${element}</div>\n`;
+          if(element == "Quem Somos")
+            menuAppend +=`<div class="sub-menu" onclick="handlerMenu(this)"><a href="#QuemSomos">${element}</a></div>\n`;
+          else if(element == "Filantropia")
+            menuAppend +=`<div class="sub-menu" onclick="handlerMenu(this)"><a href="#Filantropia">${element}</a></div>\n`;
+          else if (element == "Cultos")
+            menuAppend +=`<div class="sub-menu" onclick="handlerMenu(this)"><a href="#cultos">${element}</a></div>\n`;
         });
 
         btnMenu.style.display = "none";

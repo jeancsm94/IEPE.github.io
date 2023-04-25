@@ -19,16 +19,20 @@ header {
     justify-content: center;
     flex-direction: row;
     list-style: none;
-    font-size: 2.4rem;
-    font-weight: 600;
-    justify-content: center;
-    color: var(--colo-text);
     right: 0px;
     left: 0px;
 }
 
 .menu > li {
     margin-left: 40px;
+}
+.menu > li > a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.0rem;
+    font-weight: 600;
+    justify-content: center;
+    color: var(--colo-text);
 }
 
 .logo {

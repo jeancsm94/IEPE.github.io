@@ -37,6 +37,11 @@ header #hamburger-close {
   flex-direction: column;
 }
 
+.menu-content a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .sub-menu {
   padding: 10px;
   width: 100vw;
