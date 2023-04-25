@@ -1,42 +1,42 @@
 .sections {
-  
-        width: 100%;
-    }
-    
-    #QuemSomos {
-        margin-top: 50px;
-        margin-bottom: 60px;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
-    .sections .article-card {
-        width: 90% !important;
-        height: auto !important;
-    }
+    width: 100%;
+}
 
-    .sections .article-image img {
-        width: 90%;
-        height: 10%;
-    }
+#QuemSomos {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+}
+.sections .article-card {
+  width: 90% !important;
+  height: auto !important;
+}
 
-    .sections .article-card .title-article {
-        font-size: 2rem;
-        line-height: 2.8rem;
-    }
-    
-    .text-article {
-        font-size: 1.6rem;
-        line-height: 3rem;
-        text-align: justify;
-    }
+.sections .article-image img {
+  width: 90%;
+  height: 10%;
+  border-radius: 6px;
+}
 
-    #Filantropia {
-        margin-top: 50px;
-        margin-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+.sections .article-card .title-article {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.text-article {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-align: justify;
+}
+
+#Filantropia {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
