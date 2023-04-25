@@ -4,6 +4,9 @@ function handlerMenu(button) {
     let btnMenu = document.getElementById("hamburger-open"); 
     const menu = document.querySelector(".menu-content");
 
+    if(!btnClose || !btnMenu ||!menu)
+      return;
+
     if (btnClose.style.getPropertyValue("display") == "flex") {
         btnMenu.style.display = "flex";
         btnClose.style.display = "none"
