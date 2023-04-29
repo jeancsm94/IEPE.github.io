@@ -16,6 +16,7 @@
   display: grid;
   grid-auto-flow: 1fr;
   height: 200px;
+  margin-top: 0;
 }
 .title-cult {
   font-size: 2rem;
@@ -38,6 +39,11 @@
   font-size: 1.6rem;
   font-weight: 700;
   color: #717171;
+}
+.text-mobi-400 {
+  font-size: 1.6rem;;
+  font-weight: 400;
+  color: var(--color-text);
 }
 .card-text-cult {
   font-size: 1.6rem;

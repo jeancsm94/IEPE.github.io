@@ -35,7 +35,7 @@ function nextCult() {
   let resetList = false;
   let cardHide ;
     
-  if( index == 4){
+  if( index == 6){
     resetList = true;
     index = 1;
   }
@@ -54,11 +54,11 @@ function nextCult() {
 
 function backCult() {
   let resetList = false;
-  let cardHide ;
+  let cardHide;
     
   if( index == 1){
     resetList = true;
-    index = 4;
+    index = 6;
   }
   else
     index--;
@@ -68,7 +68,7 @@ function backCult() {
     cardHide = document.getElementById(`card-${index + 1}`);
   else
     cardHide = document.getElementById(`card-1`);
-    
+  
   cardHide.style.display = 'none';
   cardShow.style.display = '';        
 }
