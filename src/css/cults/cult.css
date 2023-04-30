@@ -10,8 +10,8 @@
 }
 
 .list-cult {
-    display: flex;
-    flex-flow: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .icon-cult {

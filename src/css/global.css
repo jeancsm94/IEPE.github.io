@@ -4,10 +4,15 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .text {
     font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    text-align: center;
 }
 
 

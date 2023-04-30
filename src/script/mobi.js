@@ -72,3 +72,17 @@ function backCult() {
   cardHide.style.display = 'none';
   cardShow.style.display = '';        
 }
+
+
+{/* <div class="card-cult" id="card-1">
+          <h4 class="title-card">Terça-Feira - Culto de Ensino</h4>
+          <span class="text-mobi-400">Cidade: </span><label for="Vale Real" class="text-mobi">Vale Real</label><br>
+          <span class="text-mobi-400">Horário: </span><span class="text-mobi">19:30 hs</span>
+          <p class="card-text-cult">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem.
+          </p>
+          <!-- <span class="LearnMore">Learn more</span> -->
+        </div>
+         */}
